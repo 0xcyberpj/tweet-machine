@@ -54,7 +54,7 @@ head $directory/$output
 echo -n -e "\e[37mFull result Location: $directory/$output"
 echo " "
 echo -n -e "\e[35mThanks For using this Damn Simple Tool"
-sleep 5
+sleep 12
 clear
 exit 0
 #echo "Example http://web.archive.org/web/<timeline>/appropriate-tweetlink"
