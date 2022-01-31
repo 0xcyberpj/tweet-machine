@@ -1,4 +1,4 @@
-# Tweet-machine Simple `Twitter OSINT Tool`
+# Tweet-machine  `Twitter OSINT Tool`
 
 
                   The Tool , Which  Used To retrive All the tweets and Replies as well as bio of the Any Twitter User (Target)
@@ -6,24 +6,36 @@
                   
  [![https://imgur.com/EDcF0de.png](https://imgur.com/EDcF0del.png)](https://imgur.com/EDcF0del.png)
  
- **So What?, Now  we can retrive all The tweets and replied links :)**
+ **So What?, Now  we can retrive all The tweets and repllies (Even if the account was suspended)**
  
 installtion :
 
 ```
-git clone 
+git clone https://github.com/0xcyberpj/tweet-machine.git && cd tweet-machine
+chmod +x twettmachine.sh
+sudo ./tweetmachine.sh <username> <output-directory>
+
+Eg:
+Tweet-Machine@Pj >> sudo ./tweetmachine.sh cyberpj1 /tmp 
+```
  
-[![https://imgur.com/pV4gPVI.png](https://imgur.com/pV4gPVIl.png)](https://imgur.com/pV4gPVIl.png)
+**Total Ouput Files**
 
+```
+cyberpj1.txt  cyberpj1.txt-timeline.txt  cyberpj1.txt.webarchive
 
+cyberpj1.txt - Contains tweets and Replies Direct link
 
+cyberpj1.txt.webarchive - Conatins tweet Link with wayback 
+This Link can be valid if Direct link show `not found`
+cyberpj1.txt-timeline.txt - This File Contains the Timeline of Every tweet!
+```
 
 Result: 
 
 [![https://imgur.com/9SU51ds.png](https://imgur.com/9SU51dsl.png)](https://imgur.com/9SU51dsl.png)
+
 ![image](https://user-images.githubusercontent.com/72292872/151848632-e56996fa-8e2d-439e-9abd-a5de8f27628f.png)
-
-
 
 1. What can i Do with This result?
 
