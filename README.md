@@ -6,15 +6,24 @@
                   
  [![https://imgur.com/EDcF0de.png](https://imgur.com/EDcF0del.png)](https://imgur.com/EDcF0del.png)
  
- **So What?, Now  we can retrive all The tweets ans replied links :)**
+ **So What?, Now  we can retrive all The tweets and replied links :)**
  
- - Credits TO `wayback`
+installtion :
 
-![image](https://user-images.githubusercontent.com/72292872/151790845-8baa9f49-c3a2-4ffd-be50-70712021bc1b.png)
+```
+git clone 
+ 
+[![https://imgur.com/pV4gPVI.png](https://imgur.com/pV4gPVIl.png)](https://imgur.com/pV4gPVIl.png)
+
+
+
 
 Result: 
 
-[![https://imgur.com/HjjlB73.png](https://imgur.com/HjjlB73l.png)](https://imgur.com/HjjlB73l.png)
+[![https://imgur.com/9SU51ds.png](https://imgur.com/9SU51dsl.png)](https://imgur.com/9SU51dsl.png)
+![image](https://user-images.githubusercontent.com/72292872/151848632-e56996fa-8e2d-439e-9abd-a5de8f27628f.png)
+
+
 
 1. What can i Do with This result?
 
