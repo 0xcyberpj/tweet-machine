@@ -1,11 +1,9 @@
-# Tweet-machine  `Twitter OSINT Tool`
-
-
-             A tool which retrieves the deleted tweets and replies of any Twitter user (target) 
+  # `Tweet-machine`
+  
+  
+   `Twitter OSINT Tool` ,  which retrieves the deleted tweets and replies of any Twitter user (Even if Its suspended) 
           
- >Even if Its suspended           
- `kutty Tool :(`
-                  
+ 
  [![https://imgur.com/EDcF0de.png](https://imgur.com/EDcF0del.png)](https://imgur.com/EDcF0del.png)
  
  <details><summary>So What?</summary>
