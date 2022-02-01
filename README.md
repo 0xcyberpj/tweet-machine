@@ -1,14 +1,18 @@
 # Tweet-machine  `Twitter OSINT Tool`
 
 
-                  The Tool , Which  Used To retrive All the tweets and Replies as well as bio of the Any Twitter User (Target)
-`kutty Tool :(`
+             A tool which retrieves the deleted tweets and replies of any Twitter user (target) 
+          
+ >Even if Its suspended           
+ `kutty Tool :(`
                   
  [![https://imgur.com/EDcF0de.png](https://imgur.com/EDcF0del.png)](https://imgur.com/EDcF0del.png)
  
- **So What?, Now  we can retrive all The tweets and repllies (Even if the account was suspended)**
+ <details><summary>So What?</summary>
+ <b>we can retrieve all tweets and replies (even if the account has been suspended) ,Using This Tool!</b>
+ </details>
  
-installtion :
+#### installtion :
 
 ```
 git clone https://github.com/0xcyberpj/tweet-machine.git && cd tweet-machine
@@ -22,49 +26,58 @@ Tweet-Machine@Pj >> sudo ./tweetmachine.sh cyberpj1 /tmp
 **Total Ouput Files**
 
 ```
-cyberpj1.txt  cyberpj1.txt-timeline.txt  cyberpj1.txt.webarchive
-
+1.cyberpj1.txt  
 cyberpj1.txt - Contains tweets and Replies Direct link
 
-cyberpj1.txt.webarchive - Conatins tweet Link with wayback 
+2.cyberpj1.txt.webarchive - Conatins tweet Link with wayback 
 This Link can be valid if Direct link show `not found`
-cyberpj1.txt-timeline.txt - This File Contains the Timeline of Every tweet!
+
+3.cyberpj1.txt-timeline.txt  - This File Contains the Timeline of Every tweet!
 ```
 
 Result: 
 
-[![https://imgur.com/9SU51ds.png](https://imgur.com/9SU51dsl.png)](https://imgur.com/9SU51dsl.png)
-
 ![image](https://user-images.githubusercontent.com/72292872/151848632-e56996fa-8e2d-439e-9abd-a5de8f27628f.png)
+----
+
+## Real Scenario : 
 
 1. What can i Do with This result?
 
->So the user *cyberpj* deleted all his previous tweets and changed his bio 
-Even after deleting all the tweets, the links are still valid as long as they are used correctly!
+> - So the user  `madangowri03` Twitter account was suspended,Using This Tool We Retrieve Each and Every Tweet and Replies Made by Him!
 
----
+![image](https://user-images.githubusercontent.com/72292872/151909602-60d1e4b4-b356-4713-87fb-bd67038dd7b5.png)
 
-1.Open the link in the browser `if the tweet does not exists` ,Then wayback arrives.
+**Wayback Result :**
 
-`https://web.archive.org/web/0/<tweetlink>`
-  
- **Here We go**
-  
- Example :
-  
- https://twitter.com/Cyberpj1/status/1298998296216604677 - (Deleted!)
-  
-![image](https://user-images.githubusercontent.com/72292872/151793125-893262ab-505b-4cc0-84f5-2edbbad48be3.png)
-  
-`http://web.archive.org/web/0/<deletedtweet>``
-  
-![image](https://user-images.githubusercontent.com/72292872/151793168-5a134a75-2989-4c7c-8c1f-b10855565300.png)
+[![https://imgur.com/a58Oekm.png](https://imgur.com/a58Oekml.png)](https://imgur.com/a58Oekml.png)
 
-**Here We got some shit post which contains very old tweet ( Nearly first tweet) and First Bio He had!**
+**Here We Go**
+```
+┌──(p4ul㉿j0ker)-[/opt/Tweet-Machie]
+└─$ sudo bash tweetmachine.sh madangowri03 . 
+┌──(p4ul㉿j0ker)-[/opt/Tweet-Machie]
+└─$ head madangowri03.txt.webarchive
+https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1385829419093151744
+https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1385829654754304000
+https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1385864438058676234
+https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1385864505385578498
+https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1385864553888583683
+https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1386013567871164416
+https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1386177747697868804
+https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1386178947692457984
+```
+![image](https://user-images.githubusercontent.com/72292872/151910703-bf5a6fe3-dce3-4729-82bd-2734d51afa97.png)
 
-2. Even After checking in Wayback ,if the Tweet not exist
+**We have discovered that the account of user `madangowri03` has been suspended, and we have used this tool to retrieve each and every tweet and response that he made!**
 
-Then
- 
+`These Links won't Expire`
 
+----
+<details><summary>PS:</summary>
+ Even if You dont know the Username you  can simple type `madangowri` , it will fetch all the past and current twitter profile links
+
+>It Can Be Used in CTFs and SOCMINT 
   
+Thank You 
+</details>
