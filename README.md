@@ -27,7 +27,7 @@ Tweet-Machine@Pj >> sudo ./tweetmachine.sh cyberpj1 /tmp
 1.cyberpj1.txt  
 cyberpj1.txt - Contains tweets and Replies Direct link
 
-2.cyberpj1.txt.webarchive - Conatins tweet Link with wayback 
+2.cyberpj1.txt.webarchive - Contains tweet Link with wayback 
 This Link can be valid if Direct link show `not found`
 
 3.cyberpj1.txt-timeline.txt  - This File Contains the Timeline of Every tweet!
