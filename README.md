@@ -76,7 +76,7 @@ https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1386178947
 ----
 <details><summary>PS:</summary>
 
- Even if You dont know the Username ,you  can simple type <pre>madangowri</pre>,it will fetch all the past and current twitter profile links
+ <pre>Even if You dont know the Username ,you  can simple type <b>madangowri</b>it will fetch all the past and current twitter profile links</pre>
 <pre>It Can Be Used in CTFs and SOCMINT </pre>
   
 Thank You 
