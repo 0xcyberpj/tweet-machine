@@ -41,7 +41,7 @@ echo -ne '####################      (88%)\r'
 sleep 1
 echo -ne '#######################   (100%)\r'
 echo -ne '\n'
-damn=`curl "http://web.archive.org/web/timemap/?url=https%3A%2F%2Ftwitter.com%2F$username%2F&matchType=prefix&collapse=urlkey&output=json&fl=original%2Cmimetype%2Ctimestamp%2Cendtimestamp%2Cgroupcount%2Cuniqcount&filter=!statuscode%3A[45]..&limit=100000&_=1627821432372" 2>/dev/null >> "/tmp/temp/$username"`
+damn=`curl "http://web.archive.org/web/timemap/?url=https://twitter.com/$username&matchType=prefix&collapse=urlkey&output=json&fl=original,mimetype,timestamp" 2>/dev/null >> "/tmp/temp/$username"`
 
 `cat /tmp/temp/$username |cut -d "," -f3 2>/dev/null|cut -d '"' -f2 >> $directory/$output-timeline.txt`
 cat $directory/$output|while read line;do echo "https://web.archive.org/web/0/$line"  >> $directory/$output.webarchive;done
