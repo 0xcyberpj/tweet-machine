@@ -12,13 +12,21 @@
    
  [![https://imgur.com/EDcF0de.png](https://imgur.com/EDcF0del.png)](https://imgur.com/EDcF0del.png)
  
- <details><summary>So What?</summary>
- <b>we can retrieve all tweets and replies (even if the account has been suspended) ,Using This Tool!</b>
+ <details><summary>Purpose </summary>
+ <b>we can retrieve all tweets and replies (even if the account has been suspended)</b>
  </details>
- 
 </p>
 
+##### BUILT WITH: 
 
+- <img src="https://img.shields.io/badge/gnu%20bash-%234EAA25.svg?&style=for-the-badge&logo=gnu%20bash&logoColor=white" />
+
+##### TOOLS USED :
+
+- <img src="https://img.shields.io/badge/arch%20linux-%231793D1.svg?&style=for-the-badge&logo=arch%20linux&logoColor=white" />
+- <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
+- <img src="https://img.shields.io/badge/visual%20studio%20code-%23007ACC.svg?&style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+- <img src="https://img.shields.io/badge/windows%20terminal-%234D4D4D.svg?&style=for-the-badge&logo=windows%20terminal&logoColor=white" />
 
 #### [+] INSTALLATION : 
 
