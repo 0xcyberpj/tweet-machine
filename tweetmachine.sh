@@ -30,7 +30,7 @@ username=$1
 directory=$2
 echo "Current Username : $username"
 echo "Result Directory :" $directory
-curl -# "http://web.archive.org/web/timemap/?url=https://twitter.com/$username&matchType=prefix&collapse=urlkey&output=json&fl=original,mimetype,timestamp" 2>/dev/null | cut -d '"' -f2 | tee $directory/$username.txt | cut -d "," -f3 2>/dev/null|cut -d '"' -f2 | tee -a $directory/$username-timeline.txt | while read line;do echo "https://web.archive.org/web/0/$line";done  >> $directory/$username.webarchive 
+curl -# "http://web.archive.org/web/timemap/?url=https://twitter.com/$username&matchType=prefix&collapse=urlkey&output=json&fl=original,mimetype,timestamp" 2>/dev/null | cut -d '"' -f2 | tee $directory/$username.txt | while read line;do echo "https://web.archive.org/web/0/$line";done | tee  $directory/$username.webarchive | cut -d "/" -f11 >> $directory/$username.timeline
 clear
 echo Done!
 echo -e "\e[33mResults saved at $directory/$username"
