@@ -41,7 +41,5 @@ echo -n -e "\e[37mFull result Location: $directory/$username.txt"
 echo " "
 echo -n -e "\e[35mThanks For using this Damn Simple Tool"
 sleep 2
-# clear
-# exit 0
 #echo "Example http://web.archive.org/web/<timeline>/appropriate-tweetlink"
 fi
