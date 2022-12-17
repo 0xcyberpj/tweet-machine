@@ -34,6 +34,7 @@ done
     
 if [ -z "${username}" ] ; then
 	echo "username is must be included"
+	exit 0
 fi
 if [ -z "${directory}" ]; then
 	directory=${username}
