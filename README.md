@@ -33,10 +33,11 @@
 ```
 git clone https://github.com/0xcyberpj/tweet-machine.git && cd tweet-machine
 chmod +x twettmachine.sh
-sudo ./tweetmachine.sh <username> <output-directory>
-
+./tweetmachine.sh -u <username> -d <directory but not important>
 Eg:
-Tweet-Machine@Pj >> sudo ./tweetmachine.sh cyberpj1 /tmp 
+Tweet-Machine@Pj >> sudo ./tweetmachine.sh -u cyberpj1 -d /tmp
+Tweet-Machine@Pj >> sudo ./tweetmachine.sh -u cyberpj1
+
 ```
 **[+] Total Output Files**
 
