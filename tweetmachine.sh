@@ -9,11 +9,9 @@ print_help() {
 }
 
 if [[ -f $(which lolcat) ]] ; then
-	echo -e "Tweet-Machine - 0xcyberpj"|lolcat 
 	echo -e "\e[33mTweet-Machine  -0xcyberpj\n"|lolcat
 	echo -e "\e[36mThis Simple Script Can be Used to Dump All the tweets and replies of the Given user [Target]"| lolcat
 else
-	echo -e "Tweet-Machine - 0xcyberpj" 
 	echo -e "\e[33mTweet-Machine  -0xcyberpj\n"
 	echo -e "\e[36mThis Simple Script Can be Used to Dump All the tweets and replies of the Given user [Target]"
 fi
