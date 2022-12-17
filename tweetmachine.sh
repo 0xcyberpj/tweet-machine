@@ -4,15 +4,9 @@
 #`sudo apt install figlet lolcat -y 2>/dev/null 2>&1`
 print_help() {
     echo -e "\e[32mTweet-Machine  - 0xcyberpj"
-    echo -e "\e[31mUsage: sudo ./tweetmachine.sh <username>  <output-directory>"
-    echo -e "<username> -- if you Dont know the actual username ,you can use known Name
-	         Example: Actual username is '\e[32mcyberpj1\e[31m', but you know only '\e[32mcyberpj\e[31m' 
-	         '\e[36msudo ./tweetmachine.sh cyberpj /tmp\e[31m'
-		   "Note: It may Make the Output Long!!""
+    echo "Usage: $0 [-u <twitter Id>] [-d <dir 'but not important'>]" 1>&2
     exit 0
-
 }
-usage() { echo "Usage: $0 [-u <twitter Id>] [-d <dir 'but not important'>]" 1>&2; exit 1; }
 
 if [[ -f $(which lolcat) ]] ; then
 	echo -e "Tweet-Machine - 0xcyberpj"|lolcat 
@@ -34,7 +28,7 @@ while getopts ":u:d:" o; do
 
             ;;
         *)
-            usage
+            print_help
             ;;
     esac
 done
