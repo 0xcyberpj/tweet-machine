@@ -30,24 +30,16 @@ username=$1
 directory=$2
 echo "Current Username : $username"
 echo "Result Directory :" $directory
-output="$username.txt"
-curl -s -# "http://web.archive.org/web/timemap/?url=https%3A%2F%2Ftwitter.com/$username&matchType=prefix&collapse=urlkey&output=json&fl=original,mimetype" 2>/dev/null|grep twitter |cut -d '"' -f2 |tee $directory/$output 2>/dev/null
-`mkdir /tmp/temp/ 2>/dev/null`
-
-curl -# "http://web.archive.org/web/timemap/?url=https://twitter.com/$username&matchType=prefix&collapse=urlkey&output=json&fl=original,mimetype,timestamp" 2>/dev/null >> "/tmp/temp/$username"
-echo $(cat /tmp/temp/$username |cut -d "," -f3 2>/dev/null|cut -d '"' -f2) >> $directory/$output-timeline.txt
-echo $(cat $directory/$output|while read line;do echo "https://web.archive.org/web/0/$line";done)  >> $directory/$output.webarchive
+curl -# "http://web.archive.org/web/timemap/?url=https://twitter.com/$username&matchType=prefix&collapse=urlkey&output=json&fl=original,mimetype,timestamp" 2>/dev/null | cut -d '"' -f2 | tee $directory/$username.txt | while read line;do echo "https://web.archive.org/web/0/$line";done | tee  $directory/$username.webarchive | cut -d "/" -f11 >> $directory/$username.timeline
 clear
 echo Done!
-echo -e "\e[33mResults saved at $directory/$output"
-echo "Webarchives Direct Link saved at : $directory/$output.webarchive"
+echo -e "\e[33mResults saved at $directory/$username"
+echo "Webarchives Direct Link saved at : $directory/$username.webarchive"
 echo -e "\e[32mSmall Output: "
-head $directory/$output
-echo -n -e "\e[37mFull result Location: $directory/$output"
+head $directory/$username.txt
+echo -n -e "\e[37mFull result Location: $directory/$username.txt"
 echo " "
 echo -n -e "\e[35mThanks For using this Damn Simple Tool"
 sleep 2
-clear
-exit 0
 #echo "Example http://web.archive.org/web/<timeline>/appropriate-tweetlink"
 fi
