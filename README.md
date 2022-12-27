@@ -35,8 +35,8 @@ git clone https://github.com/0xcyberpj/tweet-machine.git && cd tweet-machine
 chmod +x twettmachine.sh
 ./tweetmachine.sh -u <username> -d <directory but not important>
 Eg:
-Tweet-Machine@Pj >> sudo ./tweetmachine.sh -u cyberpj1 -d /tmp
-Tweet-Machine@Pj >> sudo ./tweetmachine.sh -u cyberpj1
+Tweet-Machine@Pj >> ./tweetmachine.sh -u cyberpj1 -d /tmp
+Tweet-Machine@Pj >>./tweetmachine.sh -u cyberpj1
 
 ```
 **[+] Total Output Files**
@@ -53,8 +53,13 @@ This Link can be valid if Direct link show `not found`
 
 ### [+] Result: 
 
-![image](https://user-images.githubusercontent.com/72292872/151848632-e56996fa-8e2d-439e-9abd-a5de8f27628f.png)
-----
+![image](https://user-images.githubusercontent.com/72292872/209679080-58f45d19-f4b6-4b30-96e6-0960400b5489.png)
+
+![image](https://user-images.githubusercontent.com/72292872/209679111-9a8ae3d8-67bf-4517-bab8-d571318c4700.png)
+
+![image](https://user-images.githubusercontent.com/72292872/209679349-c6cb53e9-9e12-41d4-88eb-e68cbe73d630.png)
+
+
 
 ## [+] Real Scenario : 
 
@@ -71,7 +76,7 @@ This Link can be valid if Direct link show `not found`
 **Here We Go**
 ```
 ┌──(p4ul㉿j0ker)-[/opt/Tweet-Machie]
-└─$ sudo bash tweetmachine.sh madangowri03 . 
+└─$  bash tweetmachine.sh -u  madangowri03 . 
 
 
 ┌──(p4ul㉿j0ker)-[/opt/Tweet-Machie]
