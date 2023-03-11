@@ -25,7 +25,6 @@
 
 - <img src="https://img.shields.io/badge/arch%20linux-%231793D1.svg?&style=for-the-badge&logo=arch%20linux&logoColor=white" />
 - <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
-- <img src="https://img.shields.io/badge/visual%20studio%20code-%23007ACC.svg?&style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 - <img src="https://img.shields.io/badge/windows%20terminal-%234D4D4D.svg?&style=for-the-badge&logo=windows%20terminal&logoColor=white" />
 
 #### [+] INSTALLATION : 
@@ -95,6 +94,12 @@ https://web.archive.org/web/0/https://twitter.com/madangowri03/status/1386178947
 **We have discovered that the account of user `madangowri03` has been suspended, and we have used this tool to retrieve each and every tweet and response that he made!**
 
 `These Links won't Expire`
+
+Autors:
+
+[P4UL](https://github.com/0xcyberpj)
+
+[R4VANAN](https://github.com/r4vanan)
 
 ----
 <details><summary>PS:</summary>
