@@ -28,7 +28,7 @@
 - <img src="https://img.shields.io/badge/windows%20terminal-%234D4D4D.svg?&style=for-the-badge&logo=windows%20terminal&logoColor=white" />
 
 #### [+] INSTALLATION : 
-
+Bash:
 ```
 git clone https://github.com/0xcyberpj/tweet-machine.git && cd tweet-machine
 chmod +x twettmachine.sh
@@ -38,6 +38,18 @@ Tweet-Machine@Pj >> ./tweetmachine.sh -u cyberpj1 -d /tmp
 Tweet-Machine@Pj >>./tweetmachine.sh -u cyberpj1
 
 ```
+Python:
+```
+git clone https://github.com/0xcyberpj/tweet-machine.git && cd tweet-machine
+chmod +x tweetmachine.py
+pip3 install requests 
+./tweetmachine.py -u <username> -d <directory but not important>
+Eg:
+Tweet-Machine@Pj >> ./tweetmachine.py -u cyberpj1 -d /tmp
+Tweet-Machine@Pj >>./tweetmachine.py -u cyberpj1
+
+```
+
 **[+] Total Output Files**
 
 ```
